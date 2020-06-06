@@ -1,0 +1,29 @@
+{
+  "name": "storybooks-knobs-example",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "deck.gl": "^8.1.9",
+    "math.gl": "^3.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-map-gl": "^5.2.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
